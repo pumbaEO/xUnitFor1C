@@ -1,0 +1,14 @@
+﻿04d4a9b1-13d0-4ee5-84c7-2b9b7373e494-->und\04d4a9b1-13d0-4ee5-84c7-2b9b7373e494
+04d4a9b1-13d0-4ee5-84c7-2b9b7373e494.0-->Макеты\Синонимы.mxl
+04d4a9b1-13d0-4ee5-84c7-2b9b7373e494.0-->und\04d4a9b1-13d0-4ee5-84c7-2b9b7373e494.0
+64eed9ef-75fa-437c-a6ed-570ebffe0c7f-->und\64eed9ef-75fa-437c-a6ed-570ebffe0c7f
+8ea0b17e-b917-474d-a686-4bd4fc8455f9-->und\8ea0b17e-b917-474d-a686-4bd4fc8455f9
+8ea0b17e-b917-474d-a686-4bd4fc8455f9.0-->Form\Форма\Форма.txt
+8ea0b17e-b917-474d-a686-4bd4fc8455f9.0-->und\8ea0b17e-b917-474d-a686-4bd4fc8455f9.0
+8ea0b17e-b917-474d-a686-4bd4fc8455f9.0-->und\8ea0b17e-b917-474d-a686-4bd4fc8455f9.0
+copyinfo-->und\copyinfo
+ed3a01b2-3956-48c6-93ef-1792dca609bd.0\info-->und\ed3a01b2-3956-48c6-93ef-1792dca609bd.0\info
+ed3a01b2-3956-48c6-93ef-1792dca609bd.0\text-->ObjectModule.txt
+root-->und\root
+version-->und\version
+versions-->und\versions
