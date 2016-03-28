@@ -19,7 +19,7 @@
 						<v8:content>Загрузить тесты</v8:content>
 					</v8:item>
 				</Title>
-				<ExtendedTooltip name="ФормаЗагрузитьТестыПоУмолчаниюРасширеннаяПодсказка" id="431"/>
+				<ExtendedTooltip name="ФормаЗагрузитьТестыПоУмолчаниюРасширеннаяПодсказка" id="432"/>
 			</Button>
 			<Popup name="ПодменюЗагрузитьТесты" id="131">
 				<Title>
@@ -38,7 +38,7 @@
 					<xr:Abs>Picture.png</xr:Abs>
 					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
-				<ExtendedTooltip name="ПодменюЗагрузитьТестыРасширеннаяПодсказка" id="432"/>
+				<ExtendedTooltip name="ПодменюЗагрузитьТестыРасширеннаяПодсказка" id="433"/>
 				<ChildItems>
 					<ButtonGroup name="ПлагиныЗагрузчики" id="425">
 						<Title>
@@ -53,7 +53,7 @@
 								<v8:content>Плагины загрузчики</v8:content>
 							</v8:item>
 						</ToolTip>
-						<ExtendedTooltip name="ПлагиныЗагрузчикиРасширеннаяПодсказка" id="433"/>
+						<ExtendedTooltip name="ПлагиныЗагрузчикиРасширеннаяПодсказка" id="434"/>
 					</ButtonGroup>
 					<Popup name="ПодменюИсторияЗагрузкиТестов" id="429">
 						<Title>
@@ -68,7 +68,7 @@
 								<v8:content>История загрузки тестов</v8:content>
 							</v8:item>
 						</ToolTip>
-						<ExtendedTooltip name="ПодменюИсторияЗагрузкиТестовРасширеннаяПодсказка" id="434"/>
+						<ExtendedTooltip name="ПодменюИсторияЗагрузкиТестовРасширеннаяПодсказка" id="435"/>
 					</Popup>
 				</ChildItems>
 			</Popup>
@@ -79,7 +79,7 @@
 					<xr:Abs>Picture.png</xr:Abs>
 					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
-				<ExtendedTooltip name="КомандаПерезагрузитьТестыРасширеннаяПодсказка" id="435"/>
+				<ExtendedTooltip name="КомандаПерезагрузитьТестыРасширеннаяПодсказка" id="436"/>
 			</Button>
 			<Button name="КомандаВыполнитьВсеТесты" id="30">
 				<Type>CommandBarButton</Type>
@@ -88,13 +88,13 @@
 					<xr:Abs>Picture.png</xr:Abs>
 					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
-				<ExtendedTooltip name="КомандаВыполнитьВсеТестыРасширеннаяПодсказка" id="436"/>
+				<ExtendedTooltip name="КомандаВыполнитьВсеТестыРасширеннаяПодсказка" id="437"/>
 			</Button>
 			<Button name="ФормаКомандаВыполнитьВыделенныеТесты" id="245">
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
 				<CommandName>Form.Command.КомандаВыполнитьВыделенныеТесты</CommandName>
-				<ExtendedTooltip name="ФормаКомандаВыполнитьВыделенныеТестыРасширеннаяПодсказка" id="437"/>
+				<ExtendedTooltip name="ФормаКомандаВыполнитьВыделенныеТестыРасширеннаяПодсказка" id="438"/>
 			</Button>
 			<Popup name="ГруппаВнешниеИнструменты" id="126">
 				<EnableContentChange>true</EnableContentChange>
@@ -110,22 +110,27 @@
 						<v8:content>Внешние инструменты</v8:content>
 					</v8:item>
 				</ToolTip>
-				<ExtendedTooltip name="ГруппаВнешниеИнструментыРасширеннаяПодсказка" id="438"/>
+				<ExtendedTooltip name="ГруппаВнешниеИнструментыРасширеннаяПодсказка" id="439"/>
 				<ChildItems>
 					<Button name="КомандаГенераторМакетовДанных" id="71">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.ГенераторМакетовДанных</CommandName>
-						<ExtendedTooltip name="КомандаГенераторМакетовДанныхРасширеннаяПодсказка" id="439"/>
+						<ExtendedTooltip name="КомандаГенераторМакетовДанныхРасширеннаяПодсказка" id="440"/>
 					</Button>
 					<Button name="КомандаПоказатьГУИД" id="73">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.ПоказатьГУИД</CommandName>
-						<ExtendedTooltip name="КомандаПоказатьГУИДРасширеннаяПодсказка" id="440"/>
+						<ExtendedTooltip name="КомандаПоказатьГУИДРасширеннаяПодсказка" id="441"/>
 					</Button>
 					<Button name="ФормаКонвертерТестов" id="430">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.КонвертерТестов</CommandName>
-						<ExtendedTooltip name="ФормаКонвертерТестовРасширеннаяПодсказка" id="441"/>
+						<ExtendedTooltip name="ФормаКонвертерТестовРасширеннаяПодсказка" id="442"/>
+					</Button>
+					<Button name="ФормаПреобразоватьЖурналДействийПользователяВТест" id="431">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ПреобразоватьЖурналДействийПользователяВТест</CommandName>
+						<ExtendedTooltip name="ФормаПреобразоватьЖурналДействийПользователяВТестРасширеннаяПодсказка" id="443"/>
 					</Button>
 				</ChildItems>
 			</Popup>
@@ -133,12 +138,12 @@
 				<Type>CommandBarButton</Type>
 				<Representation>PictureAndText</Representation>
 				<CommandName>Form.Command.КомандаПерезагрузитьФорму</CommandName>
-				<ExtendedTooltip name="ФормаКомандаПерезагрузитьФормуРасширеннаяПодсказка" id="442"/>
+				<ExtendedTooltip name="ФормаКомандаПерезагрузитьФормуРасширеннаяПодсказка" id="444"/>
 			</Button>
 			<Button name="ФормаИзменитьФорму" id="356">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.StandardCommand.CustomizeForm</CommandName>
-				<ExtendedTooltip name="ФормаИзменитьФормуРасширеннаяПодсказка" id="443"/>
+				<ExtendedTooltip name="ФормаИзменитьФормуРасширеннаяПодсказка" id="445"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
@@ -164,7 +169,7 @@
 			<Group>Vertical</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаДеревоТестовРасширеннаяПодсказка" id="444"/>
+			<ExtendedTooltip name="ГруппаДеревоТестовРасширеннаяПодсказка" id="446"/>
 			<ChildItems>
 				<Table name="ДеревоТестов" id="404">
 					<Representation>Tree</Representation>
@@ -189,37 +194,37 @@
 							<Button name="ДеревоТестовКонтекстноеМенюКомандаВыполнитьВыделенныеТесты" id="427">
 								<Type>CommandBarButton</Type>
 								<CommandName>Form.Command.КомандаВыполнитьВыделенныеТесты</CommandName>
-								<ExtendedTooltip name="ДеревоТестовКонтекстноеМенюКомандаВыполнитьВыделенныеТестыРасширеннаяПодсказка" id="445"/>
+								<ExtendedTooltip name="ДеревоТестовКонтекстноеМенюКомандаВыполнитьВыделенныеТестыРасширеннаяПодсказка" id="447"/>
 							</Button>
 						</ChildItems>
 					</ContextMenu>
 					<AutoCommandBar name="ДеревоТестовКоманднаяПанель" id="406">
 						<Autofill>false</Autofill>
 					</AutoCommandBar>
-					<ExtendedTooltip name="ДеревоТестовРасширеннаяПодсказка" id="446"/>
-					<SearchStringAddition name="ДеревоТестовСтрокаПоиска" id="447">
+					<ExtendedTooltip name="ДеревоТестовРасширеннаяПодсказка" id="448"/>
+					<SearchStringAddition name="ДеревоТестовСтрокаПоиска" id="449">
 						<AdditionSource>
 							<Item>ДеревоТестов</Item>
 							<Type>SearchStringRepresentation</Type>
 						</AdditionSource>
-						<ContextMenu name="ДеревоТестовСтрокаПоискаКонтекстноеМеню" id="448"/>
-						<ExtendedTooltip name="ДеревоТестовСтрокаПоискаРасширеннаяПодсказка" id="449"/>
+						<ContextMenu name="ДеревоТестовСтрокаПоискаКонтекстноеМеню" id="450"/>
+						<ExtendedTooltip name="ДеревоТестовСтрокаПоискаРасширеннаяПодсказка" id="451"/>
 					</SearchStringAddition>
-					<ViewStatusAddition name="ДеревоТестовСостояниеПросмотра" id="450">
+					<ViewStatusAddition name="ДеревоТестовСостояниеПросмотра" id="452">
 						<AdditionSource>
 							<Item>ДеревоТестов</Item>
 							<Type>ViewStatusRepresentation</Type>
 						</AdditionSource>
-						<ContextMenu name="ДеревоТестовСостояниеПросмотраКонтекстноеМеню" id="451"/>
-						<ExtendedTooltip name="ДеревоТестовСостояниеПросмотраРасширеннаяПодсказка" id="452"/>
+						<ContextMenu name="ДеревоТестовСостояниеПросмотраКонтекстноеМеню" id="453"/>
+						<ExtendedTooltip name="ДеревоТестовСостояниеПросмотраРасширеннаяПодсказка" id="454"/>
 					</ViewStatusAddition>
-					<SearchControlAddition name="ДеревоТестовУправлениеПоиском" id="453">
+					<SearchControlAddition name="ДеревоТестовУправлениеПоиском" id="455">
 						<AdditionSource>
 							<Item>ДеревоТестов</Item>
 							<Type>SearchControl</Type>
 						</AdditionSource>
-						<ContextMenu name="ДеревоТестовУправлениеПоискомКонтекстноеМеню" id="454"/>
-						<ExtendedTooltip name="ДеревоТестовУправлениеПоискомРасширеннаяПодсказка" id="455"/>
+						<ContextMenu name="ДеревоТестовУправлениеПоискомКонтекстноеМеню" id="456"/>
+						<ExtendedTooltip name="ДеревоТестовУправлениеПоискомРасширеннаяПодсказка" id="457"/>
 					</SearchControlAddition>
 					<ChildItems>
 						<PictureField name="ДеревоТестовСостояние" id="411">
@@ -231,13 +236,13 @@
 								<xr:LoadTransparent>false</xr:LoadTransparent>
 							</ValuesPicture>
 							<ContextMenu name="ДеревоТестовСостояниеКонтекстноеМеню" id="412"/>
-							<ExtendedTooltip name="ДеревоТестовСостояниеРасширеннаяПодсказка" id="456"/>
+							<ExtendedTooltip name="ДеревоТестовСостояниеРасширеннаяПодсказка" id="458"/>
 						</PictureField>
 						<InputField name="ДеревоТестовИмя" id="414">
 							<DataPath>ДеревоТестов.Имя</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="ДеревоТестовИмяКонтекстноеМеню" id="415"/>
-							<ExtendedTooltip name="ДеревоТестовИмяРасширеннаяПодсказка" id="457"/>
+							<ExtendedTooltip name="ДеревоТестовИмяРасширеннаяПодсказка" id="459"/>
 						</InputField>
 						<InputField name="ДеревоТестовКоличествоТестов" id="408">
 							<DataPath>ДеревоТестов.КоличествоТестов</DataPath>
@@ -249,19 +254,19 @@
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="ДеревоТестовКоличествоТестовКонтекстноеМеню" id="409"/>
-							<ExtendedTooltip name="ДеревоТестовКоличествоТестовРасширеннаяПодсказка" id="458"/>
+							<ExtendedTooltip name="ДеревоТестовКоличествоТестовРасширеннаяПодсказка" id="460"/>
 						</InputField>
 						<InputField name="ДеревоТестовВремяВыполнения" id="417">
 							<DataPath>ДеревоТестов.ВремяВыполнения</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="ДеревоТестовВремяВыполненияКонтекстноеМеню" id="418"/>
-							<ExtendedTooltip name="ДеревоТестовВремяВыполненияРасширеннаяПодсказка" id="459"/>
+							<ExtendedTooltip name="ДеревоТестовВремяВыполненияРасширеннаяПодсказка" id="461"/>
 						</InputField>
 						<InputField name="ДеревоТестовПуть" id="420">
 							<DataPath>ДеревоТестов.Путь</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="ДеревоТестовПутьКонтекстноеМеню" id="421"/>
-							<ExtendedTooltip name="ДеревоТестовПутьРасширеннаяПодсказка" id="460"/>
+							<ExtendedTooltip name="ДеревоТестовПутьРасширеннаяПодсказка" id="462"/>
 						</InputField>
 					</ChildItems>
 				</Table>
@@ -273,7 +278,7 @@
 			<Representation>Broken</Representation>
 			<ShowPercent>true</ShowPercent>
 			<ContextMenu name="ИндикаторВыполненияКонтекстноеМеню" id="130"/>
-			<ExtendedTooltip name="ИндикаторВыполненияРасширеннаяПодсказка" id="461"/>
+			<ExtendedTooltip name="ИндикаторВыполненияРасширеннаяПодсказка" id="463"/>
 		</ProgressBarField>
 	</ChildItems>
 	<Attributes>
@@ -601,6 +606,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>КонвертерТестов</Action>
+		</Command>
+		<Command name="ПреобразоватьЖурналДействийПользователяВТест" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Преобразовать журнал действий пользователя в тест</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Преобразовать журнал действий пользователя в тест</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПреобразоватьЖурналДействийПользователяВТест</Action>
 		</Command>
 	</Commands>
 	<Parameters>
